@@ -1,0 +1,244 @@
+:root {
+   --accent-color: #2196F3;
+   --black-logo-color: #000000;
+   --text-black-color: #212121;
+   --text-grey-color: #757575;
+   --text-white-color: #FFFFFF;
+   --footer-contact-text-color: rgba(255, 255, 255, 0.6);
+   --button-background-color: #F5F4FA;
+
+   --logo-font-family: 'Raleway', sans-serif;
+   --primary-font-family:'Roboto', sans-serif;
+}
+
+.list {
+   list-style: none;
+}
+
+.link {
+   text-decoration: none;
+}
+
+body {
+   font-family: var(--primary-font-family);
+   color: var(--text-black-color);
+}
+
+/* ============================================================================ MAIN PAGE ============================================================================ */
+
+/* =================== COMPONENTS =================== */
+
+.logotype {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+}
+
+.web {
+   color: #2196F3;
+}
+
+.studio {
+   color: #000000;
+}
+
+.title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;
+}
+
+/* =================== /COMPONENTS =================== */
+
+/* =================== HEADER =================== */
+
+.menu-link {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: var(--text-black-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+   color: var(--accent-color);
+}
+
+.contact-phone-number {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+   
+      color: var(--text-grey-color);
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+   color: var(--accent-color);
+}
+
+.contact-mail {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+   
+      color: var(--text-grey-color);
+}
+
+.contact-mail:hover, 
+.contact-mail:focus {
+   color: var(--accent-color);
+}
+
+/* =================== HEADER =================== */
+
+/* =================== HERO =================== */
+.main-title {
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+   
+      /* color: var(--text-white-color); */
+}
+
+.modal-btn {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.88;
+      text-align: center;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      margin: auto;
+      display: block;
+
+      color: var(--text-black-color);
+      background-color: var(--button-background-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+      color: var(--text-white-color);
+      background-color: var(--accent-color);
+}
+
+/* =================== HERO =================== */
+
+/* =================== PREFERENCES =================== */
+
+.subtitle {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+}
+
+.description-preferences {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+   
+      color: var(--text-grey-color);
+}
+
+/* =================== PREFERENCES =================== */
+
+/* =================== TEAM =================== */
+
+.name-team {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+}
+
+.description-team {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+   
+      color: var(--text-grey-color);
+}
+
+/* =================== /TEAM =================== */
+
+/* =================== FOOTER =================== */
+
+.address-list-location {
+      font-family: var(--primary-font-family);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+   
+      /* color: var(--text-white-color); */
+}
+
+.footer-contact {
+      font-family: var(--primary-font-family);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+   
+      /* color: var(--footer-contact-text-color); */
+}
+
+/* =================== /FOOTER =================== */
+
+
+/* ============================================================================ PORTFOLIO PAGE ============================================================================ */
+
+
+/* =================== PORTFOLIO SECTION =================== */
+
+.list-menu-button {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.63;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+   
+      color: var(--text-black-color);
+      background-color: var(--button-background-color);
+}
+
+.list-menu-button:hover,
+.list-menu-button:focus {
+   color: var(--text-white-color);
+   background-color: var(--accent-color)
+}
+
+.portfolio-title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2.0;
+      letter-spacing: 0.06em;
+   
+      color: var(--text-black-color);
+}
+
+.portfolio-description {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.03em;
+   
+      color: var(--text-grey-color);
+}
+
+/* =================== /PORTFOLIO SECTION =================== */
