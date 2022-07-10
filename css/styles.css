@@ -214,6 +214,10 @@ footer {
 
 /* =================== FOOTER =================== */
 
+.studio-white {
+      color: var(--text-white-color);
+}
+
 .address-list-location {
       font-family: var(--primary-font-family);
       font-style: normal;
